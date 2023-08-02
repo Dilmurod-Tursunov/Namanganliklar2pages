@@ -144,6 +144,7 @@ body {
    border-bottom: 2px solid #d1d1d1;
    padding-top: 30px;
    padding-bottom: 20px;
+   margin: 0;
 }
 
 .header-bottom-list-item {
@@ -243,7 +244,6 @@ body {
    text-align: center;
    padding: 17px 343px;
    margin-top: 7px;
-   margin-bottom: 100px;
 }
 
 .hero-box-two{
@@ -271,19 +271,22 @@ body {
 
 .hero-box-two-item{
    list-style: none;
-   margin-bottom: 15px;
+   border-bottom: 2px solid #d2d2d2;
+   padding-bottom: 20px;
 }
 
 .hero-box-two-item:nth-child(5){
    border: none;
    margin: 0;
+   padding: 0;
 }
 
 .hero-box-two-item-title{
    color: #000;
    font-size: 18px;
    font-weight: 500;
-   margin: 0;
+   margin-top: 20px;
+   margin-bottom: 0;
    line-height: 24px
 }
 
@@ -305,6 +308,95 @@ body {
    border: none;
 }
 
-.Reklama{
+.olmos{
    margin-top: 10px;
+}
+
+.site-footer{
+   background-color: #7297ef;
+   margin-top: 100px;
+}
+
+.footer-box{
+   width: 998px;
+   margin: 0 auto;
+   padding: 40px 0;
+}
+
+.footer-box-item{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 2px solid #cecece;
+}
+
+.footer-box-left{
+   width: 229px;
+}
+
+.logo-img{
+   margin-bottom: 15px;
+}
+
+.footer-box-desc{
+   color: #fff;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 19px;
+   margin: 0;
+}
+
+.footer-box-right{
+   padding: 0;
+   display: flex;
+}
+
+.footer-box-list{
+   padding: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-right: 100px;
+}
+
+.footer-box-list-two{
+   margin-right: 70px;
+}
+
+.footer-box-list-item{
+   list-style: none;
+   margin-bottom: 20px;
+}
+
+.footer-box-link{
+   text-decoration: none;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.footer-bottom-box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 0;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.footer-bottom-link{
+   text-decoration: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 23px;
+   margin: 0;
+}
+
+.footer-bottom-list{
+   display: flex;
+}
+
+.footer-bottom-item{
+   list-style: none;
+   margin-right: 25px;
 }
